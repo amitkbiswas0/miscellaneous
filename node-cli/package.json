@@ -1,0 +1,22 @@
+{
+  "name": "node-cli",
+  "version": "1.0.0",
+  "description": "cli to replicate 'ls' command",
+  "bin": {
+    "nls": "index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "cli",
+    "node",
+    "ls"
+  ],
+  "author": "Amit Biswas",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.0"
+  }
+}

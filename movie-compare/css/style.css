@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap");
+
+body {
+  font-family: "Oswald", sans-serif !important;
+}
+/* scrollbar rules */
+body::-webkit-scrollbar {
+  width: 0.4rem !important;
+}
+body::-webkit-scrollbar-track {
+  background: white !important;
+}
+body::-webkit-scrollbar-thumb {
+  background: #2f80ed !important;
+}
+.container {
+  margin: 0 1.2rem !important;
+}
+.hero {
+  background-image: linear-gradient(
+    to right top,
+    #2f80ed,
+    #0096f4,
+    #00a9f6,
+    #25bbf5,
+    #56ccf2
+  ) !important;
+  margin-bottom: 20px;
+}
+.is-primary {
+  background-color: #0096f4 !important;
+}
+.title {
+  color: white !important;
+}
+.subtitle {
+  color: white !important;
+}
+.title .icon {
+  margin-left: 15px;
+}
+.tutorial {
+  width: 600px;
+  text-align: center;
+  margin: auto;
+}
+.tutorial h1 {
+  font-size: 2rem !important;
+}
+.tutorial h2 {
+  font-size: 1.4rem !important;
+}
+figure.image {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+figure .image img {
+  width: 128px;
+}
+.notification {
+  margin-top: 20px !important;
+}
+.forms {
+  display: flex;
+  justify-content: space-around;
+}
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+.dropdown-item img {
+  height: 50px;
+  margin-right: 10px;
+}
+.lost {
+  background-color: firebrick;
+}
+.won {
+  background-color: forestgreen;
+}
